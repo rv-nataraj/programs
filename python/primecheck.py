@@ -17,7 +17,7 @@ def primecheck_v1(n):
 def primecheck_v2(n):
     if (n%2==0):
         print ("The number %d is Not Prime"%(n))
-	flag=True
+    flag=True
     for i in range(3,n,2):
 		print ("%d %%  %d is %d" %(n,i,n%i))
 		if (n%i==0):
