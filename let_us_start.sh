@@ -13,4 +13,4 @@ git config user.name kumar-me18
 git config credential.helper store
 
 #creating git credentials (to avoid username password everytime)
-echo "https://rv-nataraj:personal_Access_token@github.com" >> ~/.git-credentials 
+echo "https://rv-nataraj:personal_Access_token@github.com" > ~/.git-credentials 
