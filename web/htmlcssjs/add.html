@@ -1,0 +1,23 @@
+<html>
+<head><title>Adding two numbers</title><head>
+
+<script>
+	function add()
+	{
+		var a=parseInt(document.getElementById("n1").value);
+		var b=parseInt(document.getElementById("n2").value);
+		document.getElementById("result").innerHTML=a+b;
+	}
+
+</script>
+
+<body>
+	<input type="text" id="n1">
+	<input type="text" id="n2">
+	<input type="button" value="Add" onclick="add()">
+	<div id="result"> </div>
+
+	
+</body>
+
+</html>
