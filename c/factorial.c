@@ -9,7 +9,7 @@ int fact(int n)
 
 int main()
 {
-    int n=5;
+    int n=10;
     printf("factorial of %d is",fact(n));
     return 0;
 }
